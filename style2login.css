@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monserrat;
+    background: linear-gradient(150deg, #6C3483, #58D68D);
+    height: 100vh;
+    
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgb(140, 174, 226);
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    
+}
+
+.fomrulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username ´{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: -5px;
+    color: #6C3483;
+}
+.username input:focus ~ spam::before,
+.username input:focus ~ spam::before{
+    width: 100%;
+}
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+    
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    background: #6C3483;
+    border-radius: 35px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    
+}
+.registrarse{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.registrarse a{
+    color: blue;
+    text-decoration: none;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+}

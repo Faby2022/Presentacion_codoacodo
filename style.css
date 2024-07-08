@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=DynaPuff:wght@400;700&family=Paytone+One&family=Rock+Salt&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: serif, monospace, sans-serif;
+    background-image: url(./Img/logo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    /*background:linear-gradient(90deg, blue,white );*/
+}
+
+.principal {
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: #8f75c0;
+}
+
+.navbar {
+    font-family: 'DynaPuff', cursive;
+    padding: 0;
+    background-color: rgb(140, 174, 226);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-family: 'DynaPuff', cursive;
+    color: blue;
+}
+
+#carouselExample {
+    background-color: rgb(165, 165, 126);
+}
+
+.text-center {
+    color: #a14016;
+    /* font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#img1 {
+    max-width: 500px !important;
+    height: auto;
+    /* Mantiene la proporción */
+
+}
+
+
+#cat {
+    color: #a14016;
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+}
+
+#frase {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+}
+
+footer {
+    background-color: #cecae0;
+    padding: 5px;
+
+}
+
+li:hover {
+    background-color: rgb(224, 200, 141);
+}
+
+.titulo {
+
+    /* background:linear-gradient(360deg, #2b4c7e,#0c0c54 );*/
+
+}
+
+/*estilo para el formulario*/
+.form {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: 5% auto auto auto;
+
+}
+
+.estilo {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.8 1em;
+    border: none;
+    outline: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+#enviar {
+    font-family: inherit;
+    border-radius: 1rem;
+    background-color: rgb(39, 171, 227);
+    height: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contenido {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5;
+}
+
+.input--mensaje {
+    resize: none;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    height: 8rem;
+}
+
+/*raptor class*/
+.container {
+    width: 50%;
+    border: 2px solid black;
+}
+/*
+div h2,
+p {
+    color: #a14016;
+} */
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+
+}
+
+section img {
+    display: flex;
+    display: inline-block;
+    width: 50%;
+}
+
+section p {
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    font-size: 19px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+}
+
+
+
+.card {
+    background-color: gray;
+}
+
+.card-img-top {
+    background-color: gray;
+}
+
+.card-text {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    background-color: gray;
+}
+
+.card-body {
+    background-color: gray;
+}
+
+.card-title {
+    font-family: "Rampart One";
+    background-color: gray;
+    color: white;
+}
+
+.logo {
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo h5 {
+    font-family: "DynaPuff", cursive;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    width: 350px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+
+.categorias h3 {
+    display: flex;
+    justify-content: center;
+    padding-right: 180px;
+    padding-bottom: 10px;
+}
+
+.detalles {
+    align-self: center;
+    font-family: "DynaPuff", cursive;
+
+}
+
+.detalles p {
+    color: black;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+.button-link {
+    color: #0c0c54;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    margin-bottom: auto;
+
+}
